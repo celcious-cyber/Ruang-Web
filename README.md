@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RuangWeb Studio
 
-## Getting Started
+Website profil resmi **RuangWeb Studio** — Layanan jasa pembuatan Website & Aplikasi Premium. Kami merancang solusi digital berupa Landing Page, Web Profil Perusahaan (CMS), Sistem Custom (SaaS), Toko Online, dan Portal Berita yang berfokus pada kecepatan, fungsionalitas, dan estetika.
 
-First, run the development server:
+![RuangWeb Studio](https://ruangweb.studio/og-image.jpg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Fitur Utama Website
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Modern Stack**: Dibangun dengan **Next.js 15 (App Router)**, **React 19**, dan **Tailwind CSS**.
+2. **Animasi Halus**: Menggunakan **GSAP (GreenSock)** dan `lucide-react` untuk interaksi mikro yang mewah dan profesional.
+3. **Responsive & Cepat**: Dioptimasi untuk semua ukuran layar dengan skor performa tinggi.
+4. **Dark Mode Terintegrasi**: Menggunakan sistem deteksi `prefers-color-scheme` bawaan untuk pengalaman baca yang nyaman.
+5. **SEO Optimized**: Metadata dinamis dan OpenGraph yang sudah diatur dengan standar industri.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Tech Stack (Tools yang Kami Gunakan)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Kami menggunakan berbagai macam teknologi terbaik di kelasnya untuk memberikan hasil maksimal bagi klien:
+- **Frontend**: React, Next.js, Vue.js, Tailwind CSS
+- **Backend & Database**: Node.js, Laravel, PHP, Go, MySQL, PostgreSQL, MongoDB
+- **Mobile Apps**: Flutter
+- **Design & Versioning**: Figma, Adobe Illustrator, Git, GitHub
 
-## Learn More
+## 🛠️ Instalasi & Pengembangan Lokal
 
-To learn more about Next.js, take a look at the following resources:
+Ikuti langkah-langkah di bawah ini untuk menjalankan website secara lokal di komputer Anda:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone repository ini:**
+   ```bash
+   git clone https://github.com/celcious-cyber/Ruang-Web.git
+   cd "Ruang-Web"
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependency:**
+   ```bash
+   npm install
+   # atau
+   yarn install
+   # atau
+   pnpm install
+   ```
 
-## Deploy on Vercel
+3. **Jalankan Development Server:**
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Buka di Browser:**
+   Buka [http://localhost:3000](http://localhost:3000) untuk melihat hasilnya.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Struktur Folder Penting
+
+- `src/app/`: File konfigurasi routing utama dan global styling (layout.tsx, page.tsx).
+- `src/components/`: Berisi semua komponen React yang dibagi menjadi direktori logis (`banner`, `cta`, `layout`, `sections`).
+- `public/logos/`: Direktori yang menyimpan file aset SVG statis (icon tools/teknologi).
+
+## 🤝 Hubungi Kami
+
+- **WhatsApp**: [+62 851-6259-0414](https://wa.me/6285162590414)
+- **Instagram**: [@call.me_celcious](https://www.instagram.com/call.me_celcious/)
+- **Email**: hello@ruangweb.studio
+
+---
+*RuangWeb: Solusi Logis, Eksekusi Praktis.*
